@@ -1,0 +1,167 @@
+header {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  padding: 15px 0px;
+  align-items: center;
+  background: #fff;
+}
+.headerWrapper {
+  position: sticky !important;
+  top: 0;
+  z-index: 1000;
+  background: #fff !important;
+}
+.headerWrapper.fixed {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: 1000;
+  background: #fff;
+}
+.container-fluid img {
+  height: 120px;
+  margin: -32px;
+  align-items: center;
+  margin-left: -20px;
+}
+
+header .headerSearch {
+  width: 100%;
+  height: 50px;
+  border: 1px solid black;
+  padding: 10px 20px;
+}
+header .searchbox {
+  margin-left: 6rem;
+  margin-top: -53px;
+}
+header .yourloctionbox {
+  margin-left: 40rem;
+  margin-top: -53px;
+}
+
+header .headerSearch .selectDropWrapper {
+  width: 30%;
+  font-weight: 500;
+  position: relative;
+}
+header .headerSearch .selectDropWrapper:after {
+  content: "";
+  width: 1px;
+  height: 30px;
+  background: rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 5px;
+  right: -6px;
+}
+header .headerSearch .search {
+  width: 70%;
+  margin-left: 10px;
+  position: relative;
+}
+header .headerSearch .search input {
+  width: 100%;
+  height: 40px;
+  border: 0px;
+  outline: none !important;
+  font-size: 18px;
+}
+header .headerSearch .search .searchIcon {
+  position: absolute;
+  top: 9px;
+  right: 0px;
+  opacity: 0.7;
+  font-size: 22px !important;
+}
+header .countryWrapper .selectDropWrapper {
+  width: 200px !important;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding-left: 14px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 3px 6px rgba(0 0 0 / 20%);
+}
+header .countryWrapper .selectDropWrapper .openSelect {
+  width: 100%;
+}
+header .countryWrapper .selectDropWrapper .selectDrop {
+  left: 0px !important;
+}
+header .list {
+  margin-left: 423px;
+  margin-top: -20px;
+}
+header .headerTabs li span {
+  font-size: 18px;
+  cursor: pointer;
+}
+header .headerTabs li span .compare {
+  margin-right: 3px;
+}
+
+header .headerTabs li {
+  position: relative;
+}
+header .headerTabs li span .badge {
+  width: 25px;
+  height: 25px;
+  color: #fff;
+  font-weight: 400;
+  position: absolute;
+  top: -13px;
+  left: 1px;
+}
+
+header .wishlist {
+  margin-left: 555px;
+  margin-top: -25px;
+}
+.wishlist img {
+  height: 26px;
+}
+header .cart {
+  margin-left: 638px;
+  margin-top: -28px;
+}
+header .account {
+  margin-left: 710px;
+  margin-top: -28px;
+}
+.dropdownMenu {
+  top: 100%;
+  left: 0px;
+
+  right: 0px;
+}
+.dropdownMenu {
+  position: absolute;
+  top: 120%;
+  left: -62px;
+  width: 200px;
+  height: auto;
+  background: #fff;
+  box-shadow: 0 3px 6px rgba(0 0 0 / 20%);
+  list-style: none;
+  padding: 10px 0px;
+  margin-top: 10px;
+  z-index: 100;
+}
+header .compare {
+  margin-right: 5px;
+}
+.dropdownMenu li button {
+  width: 100% !important;
+  text-align: left !important;
+  justify-content: flex-start !important;
+  /* color: #0000 !important; */
+  font-size: 16px !important;
+  color: rgba(0, 0, 0, 0.7);
+  /* margin-right: 40px; */
+  padding: 8px 12px !important;
+}
+.dropdownMenu li button:hover {
+  background: #f1f1f1 !important;
+}
